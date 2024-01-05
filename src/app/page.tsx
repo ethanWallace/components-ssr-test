@@ -1,95 +1,109 @@
-import Image from 'next/image'
+import { Buttons } from '@/components/gcds/buttons'
 import styles from './page.module.css'
+import { Alerts } from '@/components/gcds/alerts'
+import { Breadcrumbs } from '@/components/gcds/breadcrumbs'
+import { Cards } from '@/components/gcds/card'
+import { Checkbox } from '@/components/gcds/checkbox'
+import { Container } from '@/components/gcds/container'
+import { DateModified } from '@/components/gcds/datemodified'
+import { Details } from '@/components/gcds/details'
+import { ErrorMessage } from '@/components/gcds/errormessage'
+import { ErrorSummary } from '@/components/gcds/errorsummary'
+import { Fieldset } from '@/components/gcds/fieldset'
+import { FileUploader } from '@/components/gcds/fileuploader'
+import { Grid } from '@/components/gcds/grid'
+import { Heading } from '@/components/gcds/heading'
+import { Hint } from '@/components/gcds/hint'
+import { Icon } from '@/components/gcds/icon'
+import { Input } from '@/components/gcds/input'
+import { Label } from '@/components/gcds/label'
+import { LangToggle } from '@/components/gcds/langtoggle'
+import { Link } from '@/components/gcds/link'
+import { NavGroup } from '@/components/gcds/navgroup'
+import { NavLink } from '@/components/gcds/navlink'
+import { Pagination } from '@/components/gcds/pagination'
+import { PhaseBanner } from '@/components/gcds/phasebanner'
+import { Radio } from '@/components/gcds/radio'
+import { Search } from '@/components/gcds/search'
+import { Select } from '@/components/gcds/select'
+import { SideNav } from '@/components/gcds/sidenav'
+import { Signature } from '@/components/gcds/signature'
+import { SrOnly } from '@/components/gcds/sronly'
+import { BreadcrumbsItem } from '@/components/gcds/breadcrumbsitem'
+import { Stepper } from '@/components/gcds/stepper'
+import { Text } from '@/components/gcds/text'
+import { Textarea } from '@/components/gcds/textarea'
+import { TopNav } from '@/components/gcds/topnav'
+import { TopicMenu } from '@/components/gcds/topicmenu'
+import { VerifyBanner } from '@/components/gcds/verifybanner'
+import { Intro } from '@/components/intro'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+      <Intro />
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <Alerts />
+      <Breadcrumbs />
+      <BreadcrumbsItem />
+      <Buttons />
+      <Cards />
+      <Checkbox />
+      <Container />
+      <DateModified />
+      <Details />
+      <ErrorMessage />
+      <ErrorSummary />
+      <Fieldset />
+      <FileUploader />
+      <Grid />
+      <Heading />
+      <Hint />
+      <Icon />
+      <Input />
+      <Label />
+      <LangToggle />
+      <Link />
+      <NavGroup />
+      <NavLink />
+      <Pagination />
+      <PhaseBanner />
+      <Radio />
+      <Search />
+      <Select />
+      <SideNav />
+      <Signature />
+      <SrOnly />
+      <Stepper />
+      <Text />
+      <Textarea />
+      <TopNav />
+      <TopicMenu />
+      <VerifyBanner />
     </main>
   )
 }
+
+// There seem to be issues with the following components
+// - Breadcrumbs = slot issue
+// - Cards = slot issue
+// - Checkbox = no DSD
+// - Date Modified = no DSD
+// - Fieldset = no DSD
+// - FileUploader = no DSD
+// - Grid/Grid col = slot issue
+// - Hint = No DSD
+// - Input = No DSD
+// - Label = No DSD
+// - Link = who knows what?
+// - NavGroup - slot issue
+// - Pagination = no DSD
+// - Radio = no DSD
+// - Search = no DSD
+// - Select = no DSD
+// - Side Navigation = slot issue
+// - Signature =  no DSD
+// - Top nav = slot issue
+
+
+// Potential issue when some components load components passed as children (Navgroup, breadcrumbs, side/top navigation)
