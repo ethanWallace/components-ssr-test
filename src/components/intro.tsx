@@ -31,7 +31,7 @@ export const Intro: FC = () => (
       <li>NavGroup - slot issue</li>
       <li>Pagination = no DSD</li>
       <li>Radio = no DSD</li>
-      <li>Search = no DSD</li>
+      <li>Search = no DSD, and who knows what?</li>
       <li>Select = no DSD</li>
       <li>Side Navigation = slot issue</li>
       <li>Signature =  no DSD</li>
@@ -40,7 +40,8 @@ export const Intro: FC = () => (
 
     <GcdsHeading tag="h2">What is no DSD?</GcdsHeading>
     <GcdsText>
-      No DSD stands for no declarative shadow-dom. This is caused by the components not using shadow-dom so they won't render in SSR. We are looking to convert the form components over to using shadow-dom and be form associated (maybe)
+      No DSD stands for no declarative shadow-dom. This is caused by the components not using shadow-dom so they won't render in SSR. We are looking to convert the form components over to using shadow-dom and be form associated (maybe).
+      Everything else could be converted to use shadow-dom.
     </GcdsText>
 
     <GcdsHeading tag="h2">What is the slot issue?</GcdsHeading>

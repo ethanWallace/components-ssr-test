@@ -25,7 +25,7 @@ export default async function RootLayout({
   await import('@cdssnc/gcds-components-ssr/server');
 
   return (
-    <html lang="fr">
+    <html lang="en">
       <head>
         <Script src="https://kit.fontawesome.com/892cb27850.js"></Script>
         <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@latest/dist/gcds-utility.min.css"/>

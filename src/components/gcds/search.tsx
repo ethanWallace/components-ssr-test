@@ -6,13 +6,16 @@ import { FC } from 'react';
 export const Search: FC = () => (
   <div>
     <GcdsHeading tag="h2">Search</GcdsHeading>
+
+    <GcdsSearch></GcdsSearch>
     
     <GcdsSearch
       action="/searchresults"
       method="post"
       name="customsearch"
       searchId="customsearch"
-      suggested="Nextjs test site"
+      placeholder="Nextjs test site"
+      suggested={["Popular term", "Popular term 2"]}
     ></GcdsSearch>
   </div>
 );
