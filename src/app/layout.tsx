@@ -14,6 +14,7 @@ import '../../node_modules/@cdssnc/gcds-components-ssr/gcds.css'
 import { Footer } from '@/components/gcds/footer';
 import { Header } from '@/components/gcds/header';
 
+
 export default async function RootLayout({
   children,
 }: {

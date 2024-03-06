@@ -5,8 +5,8 @@ import { FC } from 'react';
 
 export const BreadcrumbsItem: FC = () => (
   <div>
-    <GcdsHeading tag="h2">Breadcrumb items</GcdsHeading>
+    {/* <GcdsHeading tag="h2">Breadcrumb items</GcdsHeading> */}
     
-    <GcdsBreadcrumbsItem href="#">Design System</GcdsBreadcrumbsItem>
+    <GcdsBreadcrumbsItem className="red" role="group" href="#">Design System</GcdsBreadcrumbsItem>
   </div>
 );

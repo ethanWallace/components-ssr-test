@@ -10,7 +10,7 @@ export const Buttons: FC = () => (
     <GcdsButton type="submit" name="submit" buttonId="submit" buttonRole="primary">
       Primary Submit
     </GcdsButton>
-    <GcdsButton type="button" name="button" buttonId="button" buttonRole="secondary">
+    <GcdsButton onGcdsBlur={(e: any) => {alert(e)}} type="button" name="button" buttonId="button" buttonRole="secondary">
       Secondary Button
     </GcdsButton>
     <GcdsButton type="reset" name="reset" buttonId="reset" buttonRole="danger">

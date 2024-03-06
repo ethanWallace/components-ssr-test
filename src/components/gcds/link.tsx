@@ -15,12 +15,11 @@ export const Link: FC = () => (
         <GcdsLink href="https://picsum.photos/480/270" external display="block">This is an external link.</GcdsLink>
       </p>
       <p>
-        This is a
-        <GcdsLink
+        This is a <GcdsLink
           href="https://picsum.photos/200/200.jpg"
           download="random_image"
           type="image/jpeg"
-          >download link (PDF, 1.3 MB)</GcdsLink> with type indicated
+          > download link (PDF, 1.3 MB)</GcdsLink> with type indicated
       </p>
       <p>
         Contact us <GcdsLink href="mailto:test@test.com?subject=Test%20email">via email</GcdsLink> or by phone.
