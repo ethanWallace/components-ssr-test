@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsContainer, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsContainer, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Container: FC = () => (

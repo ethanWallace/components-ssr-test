@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsAlert, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsAlert, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Alerts: FC = () => (

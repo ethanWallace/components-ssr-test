@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsSrOnly, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsSrOnly, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const SrOnly: FC = () => (

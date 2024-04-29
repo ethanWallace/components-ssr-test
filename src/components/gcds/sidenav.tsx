@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsSideNav, GcdsNavGroup, GcdsNavLink, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsSideNav, GcdsNavGroup, GcdsNavLink, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const SideNav: FC = () => (

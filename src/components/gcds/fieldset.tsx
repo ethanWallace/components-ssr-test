@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsFieldset, GcdsCheckbox, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsFieldset, GcdsCheckbox, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Fieldset: FC = () => (

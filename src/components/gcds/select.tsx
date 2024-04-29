@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsSelect, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsSelect, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Select: FC = () => (

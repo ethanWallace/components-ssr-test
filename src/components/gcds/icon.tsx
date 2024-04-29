@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsIcon, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsIcon, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Icon: FC = () => (

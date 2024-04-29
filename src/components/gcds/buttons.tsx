@@ -1,12 +1,12 @@
 'use client';
 
-import { GcdsButton, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsButton, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Buttons: FC = () => (
   <div>
     <GcdsHeading tag="h2">Buttons</GcdsHeading>
-    
+
     <GcdsButton type="submit" name="submit" buttonId="submit" buttonRole="primary">
       Primary Submit
     </GcdsButton>

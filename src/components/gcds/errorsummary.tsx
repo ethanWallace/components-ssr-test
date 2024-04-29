@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsErrorSummary, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsErrorSummary, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 const error = {
@@ -10,7 +10,7 @@ const error = {
 
 export const ErrorSummary: FC = () => (
   <div>
-    <GcdsHeading tag="h2">ErrorSummary</GcdsHeading>
+    {/* <GcdsHeading tag="h2">ErrorSummary</GcdsHeading> */}
     
     <GcdsErrorSummary
       heading="Custom error summary"

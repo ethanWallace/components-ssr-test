@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsRadioGroup, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsRadioGroup, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Radio: FC = () => (

@@ -41,6 +41,7 @@ import { Intro } from '@/components/intro'
 export default function Home() {
   return (
     <main className={styles.main}>
+
       <Intro />
 
       <Alerts />
@@ -83,27 +84,3 @@ export default function Home() {
     </main>
   )
 }
-
-// There seem to be issues with the following components
-// - Breadcrumbs = slot issue
-// - Cards = slot issue
-// - Checkbox = no DSD
-// - Date Modified = no DSD
-// - Fieldset = no DSD
-// - FileUploader = no DSD
-// - Grid/Grid col = slot issue
-// - Hint = No DSD
-// - Input = No DSD
-// - Label = No DSD
-// - Link = who knows what?
-// - NavGroup - slot issue
-// - Pagination = no DSD
-// - Radio = no DSD
-// - Search = no DSD
-// - Select = no DSD
-// - Side Navigation = slot issue
-// - Signature =  no DSD
-// - Top nav = slot issue
-
-
-// Potential issue when some components load components passed as children (Navgroup, breadcrumbs, side/top navigation)

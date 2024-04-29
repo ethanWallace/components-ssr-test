@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsHint, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsHint, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Hint: FC = () => (

@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsGrid, GcdsGridCol, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsGrid, GcdsGridCol, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Grid: FC = () => (
@@ -37,7 +37,7 @@ export const Grid: FC = () => (
     </GcdsGrid>
 
     <GcdsGrid>
-        <GcdsGridCol tablet="3" desktop="6">
+        <GcdsGridCol suppressHydrationWarning style={{"border": '1px solid black'}} tablet="3" desktop="6">
           <p className="bg-primary text-light p-300">
             Base: 1/1, tablet: 3/6, desktop: 6/12
           </p>
@@ -82,8 +82,5 @@ export const Grid: FC = () => (
           </p>
         </GcdsGridCol>
       </GcdsGrid>
-
-    <p><strong>Notes</strong></p>
-    <p>Older version: will have to pull newest from develop branch</p>
   </div>
 );

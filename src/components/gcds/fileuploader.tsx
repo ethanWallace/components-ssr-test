@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsFileUploader, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsFileUploader, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const FileUploader: FC = () => (

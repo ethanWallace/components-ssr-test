@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsTextarea, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsTextarea, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Textarea: FC = () => (

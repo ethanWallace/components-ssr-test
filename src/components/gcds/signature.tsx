@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsSignature, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsSignature, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Signature: FC = () => (

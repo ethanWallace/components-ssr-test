@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsVerifyBanner, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsVerifyBanner, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const VerifyBanner: FC = () => (

@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsNavLink, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsNavLink, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const NavLink: FC = () => (

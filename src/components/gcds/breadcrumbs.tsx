@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsBreadcrumbs, GcdsBreadcrumbsItem, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsBreadcrumbs, GcdsBreadcrumbsItem, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Breadcrumbs: FC = () => (

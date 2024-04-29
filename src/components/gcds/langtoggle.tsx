@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsLangToggle, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsLangToggle, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const LangToggle: FC = () => (

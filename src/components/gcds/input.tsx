@@ -1,18 +1,22 @@
 'use client';
 
-import { GcdsInput, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsInput, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Input: FC = () => (
   <div>
     <GcdsHeading tag="h2">Input</GcdsHeading>
-    
+
     <GcdsInput
+      id="test"
       inputId="form-name"
       label="Name"
-      hint="Please enter your full name."
+      name="red"
+      hint="hello"
       required
+      lang="fr"
     ></GcdsInput>
+
 
     <GcdsInput
       inputId="form-email"
@@ -30,7 +34,7 @@ export const Input: FC = () => (
       hint="Please enter a 10 digits number."
       required
     ></GcdsInput>
-
+     
     <GcdsInput
       inputId="form-name2"
       label="Name"

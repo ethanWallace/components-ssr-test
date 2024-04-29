@@ -1,14 +1,13 @@
 'use client';
 
-import { GcdsHeader } from '@cdssnc/gcds-components-ssr'
+import { GcdsHeader, GcdsLangToggle, GcdsSignature } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Header: FC = () => (
   <div>
-    <GcdsHeader
-      lang="en"
-      langHref="en"
-      skipToHref="#"
-    ></GcdsHeader>
+    <GcdsHeader>
+      <GcdsSignature type="signature" slot="signature"></GcdsSignature>
+      <GcdsLangToggle slot="toggle" href="#" lang="en"></GcdsLangToggle>
+    </GcdsHeader>
   </div>
 );

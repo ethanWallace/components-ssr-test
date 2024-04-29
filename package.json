@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@webcomponents/template-shadowroot": "^0.2.1",
-    "next": "14.0.3",
+    "element-internals-polyfill": "^1.3.10",
+    "linkedom": "^0.16.11",
+    "next": "^14.0.3",
     "react": "^18",
     "react-dom": "^18"
   },

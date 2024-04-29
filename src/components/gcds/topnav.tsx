@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsTopNav, GcdsNavGroup, GcdsNavLink, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsTopNav, GcdsNavGroup, GcdsNavLink, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const TopNav: FC = () => (

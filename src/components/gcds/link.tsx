@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsLink, GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsLink, GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Link: FC = () => (

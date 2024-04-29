@@ -1,6 +1,6 @@
 'use client';
 
-import { GcdsHeading } from '@cdssnc/gcds-components-ssr'
+import { GcdsHeading } from '@cdssnc/gcds-components-react-ssr'
 import { FC } from 'react';
 
 export const Heading: FC = () => (
